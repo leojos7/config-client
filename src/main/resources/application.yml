@@ -1,0 +1,15 @@
+app:
+  name: My app
+  description: Welcome to ${app.name}
+
+my:
+  greeting: Hello World Leo 12
+  list:
+    values:
+      One, Two, Three
+
+spring.cloud.config.uri: http://localhost:8888
+
+spring.application.name: config-client
+
+management.endpoints.web.exposure.include: "*"
